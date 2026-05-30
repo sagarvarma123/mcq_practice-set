@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js function pract</title>
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <script>
+      function right() {
+        window.alert("This is a Correct Answer");
+      }
+
+      function wrong() {
+        window.alert("This is incorrect Answer");
+      }
+
+      
+
+      function night() {
+        var change = document.getElementById("bdy");
+        change.style.backgroundColor = "black";
+        change.style.opacity = "0.5";
+      }
+
+      function day() {
+        var change = document.getElementById("bdy");
+        change.style.backgroundColor = "white";
+        change.style.opacity = "1";
+      }
+
+    </script>
+  </head>
+  <body id="bdy">
+  
+    <main>
+      <header>
+        <h2>MCQ Mock Test</h2>
+        <p>Subject:- Computer (Topic:- Web Development)</p>
+
+        <button onclick="night()" id="btn">Night</button>
+        <button onclick="day()" id="btn">Day</button>
+      </header>
+      <h3>Q1. HTML stands for .</h3>
+      <button onclick="right()">Hyper Text MarkUp Language</button>
+      <button onclick="wrong()">High Text MarkUp Language</button>
+
+      <h3>Q2. CSS is used for.</h3>
+      <button onclick="right()">Styling Web Pages</button>
+      <button onclick="wrong()">Creating Database</button>
+
+      <h3>Q3. CSS stands for.</h3>
+      <button onclick="right()">Cascading Style Sheets</button>
+      <button onclick="wrong()">Cascading Style Sheet</button>
+
+      <h3>Q4. Which tag is used to create a paragraph?</h3>
+      <button onclick="right()">&lt;p&gt;</button>
+      <button onclick="wrong()">&lt;h1&gt;</button>
+
+      <h3>Q5. Which tag is used for largest heading?</h3>
+      <button onclick="right()">&lt;h1&gt;</button>
+      <button onclick="wrong()">&lt;h6&gt;</button>
+
+      <h3>Q6. Which HTML tag is used for image?</h3>
+      <button onclick="right()">&lt;img&gt;</button>
+      <button onclick="wrong()">&lt;image&gt;</button>
+
+      <h3>Q7. Which attribute is used for image path?</h3>
+      <button onclick="right()">src</button>
+      <button onclick="wrong()">href</button>
+
+      <h3>Q8. Which tag creates a hyperlink?</h3>
+      <button onclick="right()">&lt;a&gt;</button>
+      <button onclick="wrong()">&lt;link&gt;</button>
+
+      <h3>Q9. Which attribute is used with anchor tag?</h3>
+      <button onclick="right()">href</button>
+      <button onclick="wrong()">src</button>
+
+      <h3>Q10. Which tag is used for line break?</h3>
+      <button onclick="right()">&lt;br&gt;</button>
+      <button onclick="wrong()">&lt;break&gt;</button>
+
+      <h3>Q11. Which tag creates an unordered list?</h3>
+      <button onclick="right()">&lt;ul&gt;</button>
+      <button onclick="wrong()">&lt;ol&gt;</button>
+
+      <h3>Q12. Which tag creates an ordered list?</h3>
+      <button onclick="right()">&lt;ol&gt;</button>
+      <button onclick="wrong()">&lt;ul&gt;</button>
+
+      <h3>Q13. Which tag is used for list item?</h3>
+      <button onclick="right()">&lt;li&gt;</button>
+      <button onclick="wrong()">&lt;list&gt;</button>
+
+      <h3>Q14. Which tag is used for table row?</h3>
+      <button onclick="right()">&lt;tr&gt;</button>
+      <button onclick="wrong()">&lt;td&gt;</button>
+
+      <h3>Q15. Which tag is used for table data?</h3>
+      <button onclick="right()">&lt;td&gt;</button>
+      <button onclick="wrong()">&lt;th&gt;</button>
+
+      <h3>Q16. Which tag is used for table heading?</h3>
+      <button onclick="right()">&lt;th&gt;</button>
+      <button onclick="wrong()">&lt;head&gt;</button>
+
+      <h3>Q17. Which HTML tag is used for form?</h3>
+      <button onclick="right()">&lt;form&gt;</button>
+      <button onclick="wrong()">&lt;input&gt;</button>
+
+      <h3>Q18. Which input type hides password?</h3>
+      <button onclick="right()">password</button>
+      <button onclick="wrong()">text</button>
+
+      <h3>Q19. Which tag is used for button?</h3>
+      <button onclick="right()">&lt;button&gt;</button>
+      <button onclick="wrong()">&lt;btn&gt;</button>
+
+      <h3>Q20. Which tag is used for checkbox?</h3>
+      <button onclick="right()">input type="checkbox"</button>
+      <button onclick="wrong()">input type="text"</button>
+
+      <h3>Q21. Which CSS property changes text color?</h3>
+      <button onclick="right()">color</button>
+      <button onclick="wrong()">background</button>
+
+      <h3>Q22. Which CSS property changes background color?</h3>
+      <button onclick="right()">background-color</button>
+      <button onclick="wrong()">color</button>
+
+      <h3>Q23. Which property changes font size?</h3>
+      <button onclick="right()">font-size</button>
+      <button onclick="wrong()">text-size</button>
+
+      <h3>Q24. Which property makes text bold?</h3>
+      <button onclick="right()">font-weight</button>
+      <button onclick="wrong()">font-style</button>
+
+      <h3>Q25. Which property aligns text?</h3>
+      <button onclick="right()">text-align</button>
+      <button onclick="wrong()">align-text</button>
+
+      <h3>Q26. Which property changes font style?</h3>
+      <button onclick="right()">font-style</button>
+      <button onclick="wrong()">font-weight</button>
+
+      <h3>Q27. Which property adds space inside border?</h3>
+      <button onclick="right()">padding</button>
+      <button onclick="wrong()">margin</button>
+
+      <h3>Q28. Which property adds space outside border?</h3>
+      <button onclick="right()">margin</button>
+      <button onclick="wrong()">padding</button>
+
+      <h3>Q29. Which property changes border color?</h3>
+      <button onclick="right()">border-color</button>
+      <button onclick="wrong()">color</button>
+
+      <h3>Q30. Which property rounds border corners?</h3>
+      <button onclick="right()">border-radius</button>
+      <button onclick="wrong()">border-style</button>
+
+      <h3>Q31. Which property changes element width?</h3>
+      <button onclick="right()">width</button>
+      <button onclick="wrong()">height</button>
+
+      <h3>Q32. Which property changes element height?</h3>
+      <button onclick="right()">height</button>
+      <button onclick="wrong()">width</button>
+
+      <h3>Q33. Which property hides element?</h3>
+      <button onclick="right()">display:none</button>
+      <button onclick="wrong()">visibility:show</button>
+
+      <h3>Q34. Which CSS value makes flexbox?</h3>
+      <button onclick="right()">display:flex</button>
+      <button onclick="wrong()">display:block</button>
+
+      <h3>Q35. Which property changes text color?</h3>
+      <button onclick="right()">color</button>
+      <button onclick="wrong()">font-color</button>
+
+      <h3>Q36. Which tag is used for navigation links?</h3>
+      <button onclick="right()">&lt;nav&gt;</button>
+      <button onclick="wrong()">&lt;navigation&gt;</button>
+
+      <h3>Q37. Which tag is used for footer?</h3>
+      <button onclick="right()">&lt;footer&gt;</button>
+      <button onclick="wrong()">&lt;bottom&gt;</button>
+
+      <h3>Q38. Which tag is used for header?</h3>
+      <button onclick="right()">&lt;header&gt;</button>
+      <button onclick="wrong()">&lt;top&gt;</button>
+
+      <h3>Q39. Which property changes cursor style?</h3>
+      <button onclick="right()">cursor</button>
+      <button onclick="wrong()">pointer</button>
+
+      <h3>Q40. Which CSS property adds shadow?</h3>
+      <button onclick="right()">box-shadow</button>
+      <button onclick="wrong()">shadow</button>
+
+      <h3>Q41. Which property changes transparency?</h3>
+      <button onclick="right()">opacity</button>
+      <button onclick="wrong()">visibility</button>
+
+      <h3>Q42. Which tag is used for audio?</h3>
+      <button onclick="right()">&lt;audio&gt;</button>
+      <button onclick="wrong()">&lt;sound&gt;</button>
+
+      <h3>Q43. Which tag is used for video?</h3>
+      <button onclick="right()">&lt;video&gt;</button>
+      <button onclick="wrong()">&lt;movie&gt;</button>
+
+      <h3>Q44. Which property changes image size?</h3>
+      <button onclick="right()">width & height</button>
+      <button onclick="wrong()">size</button>
+
+      <h3>Q45. Which CSS property creates animation?</h3>
+      <button onclick="right()">animation</button>
+      <button onclick="wrong()">transform</button>
+
+      <h3>Q46. Which property rotates element?</h3>
+      <button onclick="right()">transform</button>
+      <button onclick="wrong()">rotate</button>
+
+      <h3>Q47. Which HTML tag contains metadata?</h3>
+      <button onclick="right()">&lt;head&gt;</button>
+      <button onclick="wrong()">&lt;body&gt;</button>
+
+      <h3>Q48. Which tag contains visible content?</h3>
+      <button onclick="right()">&lt;body&gt;</button>
+      <button onclick="wrong()">&lt;head&gt;</button>
+
+      <h3>Q49. Which CSS selector selects all elements?</h3>
+      <button onclick="right()">*</button>
+      <button onclick="wrong()">#</button>
+
+      <h3>Q50. Which selector selects id?</h3>
+      <button>#id</button>
+      <button onclick="wrong()">.class</button>
+
+      <h3>Q51. Which selector selects class?</h3>
+      <button onclick="right()">.class</button>
+      <button onclick="wrong()">#id</button>
+
+      <h3>Q52. Which property changes list style?</h3>
+      <button onclick="right()">list-style</button>
+      <button onclick="wrong()">style-list</button>
+
+      <h3>Q53. Which property controls overflow?</h3>
+      <button onclick="right()">overflow</button>
+      <button onclick="wrong()">scroll</button>
+
+      <h3>Q54. Which property changes z-order?</h3>
+      <button onclick="right()">z-index</button>
+      <button onclick="wrong()">index</button>
+
+      <h3>Q55. Which position value fixes element?</h3>
+      <button onclick="right()">fixed</button>
+      <button onclick="wrong()">absolute</button>
+
+      <h3>Q56. Which property changes display type?</h3>
+      <button onclick="right()">display</button>
+      <button onclick="wrong()">visibility</button>
+
+      <h3>Q57. Which property changes font family?</h3>
+      <button onclick="right()">font-family</button>
+      <button onclick="wrong()">font-style</button>
+
+      <h3>Q58. Which tag is used for division?</h3>
+      <button onclick="right()">&lt;div&gt;</button>
+      <button onclick="wrong()">&lt;section&gt;</button>
+
+      <h3>Q59. Which tag is inline element?</h3>
+      <button onclick="right()">&lt;span&gt;</button>
+      <button onclick="wrong()">&lt;div&gt;</button>
+
+      <h3>Q60. Which property underlines text?</h3>
+      <button onclick="right()">text-decoration</button>
+      <button onclick="wrong()">underline</button>
+
+      <h3>Q61. Which CSS property changes line spacing?</h3>
+      <button onclick="right()">line-height</button>
+      <button onclick="wrong()">letter-spacing</button>
+
+      <h3>Q62. Which property changes letter spacing?</h3>
+      <button onclick="right()">letter-spacing</button>
+      <button onclick="wrong()">word-spacing</button>
+
+      <h3>Q63. Which property changes word spacing?</h3>
+      <button onclick="right()">word-spacing</button>
+      <button onclick="wrong()">line-height</button>
+
+      <h3>Q64. Which HTML tag is used for comments?</h3>
+      <button onclick="right()">&lt;!-- comment --&gt;</button>
+      <button onclick="wrong()">&lt;comment&gt;</button>
+
+      <h3>Q65. Which property makes element responsive?</h3>
+      <button onclick="right()">media query</button>
+      <button onclick="wrong()">responsive</button>
+
+      <h3>Q66. Which CSS unit is relative?</h3>
+      <button onclick="right()">em</button>
+      <button onclick="wrong()">px</button>
+
+      <h3>Q67. Which unit is fixed?</h3>
+      <button onclick="right()">px</button>
+      <button onclick="wrong()">em</button>
+
+      <h3>Q68. Which property changes mouse pointer?</h3>
+      <button onclick="right()">cursor</button>
+      <button onclick="wrong()">mouse</button>
+
+      <h3>Q69. Which tag is semantic?</h3>
+      <button onclick="right()">&lt;article&gt;</button>
+      <button onclick="wrong()">&lt;div&gt;</button>
+
+      <h3>Q70. Which tag is used for section?</h3>
+      <button onclick="right()">&lt;section&gt;</button>
+      <button onclick="wrong()">&lt;div&gt;</button>
+
+      <h3>Q71. Which property creates gradient?</h3>
+      <button onclick="right()">background-image</button>
+      <button onclick="wrong()">gradient</button>
+
+      <h3>Q72. Which property adds transition effect?</h3>
+      <button onclick="right()">transition</button>
+      <button onclick="wrong()">animation</button>
+
+      <h3>Q73. Which property changes visibility?</h3>
+      <button onclick="right()">visibility</button>
+      <button onclick="wrong()">display</button>
+
+      <h3>Q74. Which HTML version is latest?</h3>
+      <button onclick="right()">HTML5</button>
+      <button onclick="wrong()">HTML4</button>
+
+      <h3>Q75. Which property sets maximum width?</h3>
+      <button onclick="right()">max-width</button>
+      <button onclick="wrong()">maximum-width</button>
+
+      <h3>Q76. Which property sets minimum width?</h3>
+      <button onclick="right()">min-width</button>
+      <button onclick="wrong()">minimum-width</button>
+
+      <h3>Q77. Which property changes element order in flexbox?</h3>
+      <button onclick="right()">order</button>
+      <button onclick="wrong()">flex-order</button>
+
+      <h3>Q78. Which property aligns flex items?</h3>
+      <button onclick="right()">align-items</button>
+      <button onclick="wrong()">text-align</button>
+
+      <h3>Q79. Which property justifies flex items?</h3>
+      <button onclick="right()">justify-content</button>
+      <button onclick="wrong()">align-content</button>
+
+      <h3>Q80. Which tag is used for iframe?</h3>
+      <button onclick="right()">&lt;iframe&gt;</button>
+      <button onclick="wrong()">&lt;frame&gt;</button>
+
+      <h3>Q81. Which property changes box sizing?</h3>
+      <button onclick="right()">box-sizing</button>
+      <button onclick="wrong()">sizing</button>
+
+      <h3>Q82. Which CSS property changes float?</h3>
+      <button onclick="right()">float</button>
+      <button onclick="wrong()">align</button>
+
+      <h3>Q83. Which property clears float?</h3>
+      <button onclick="right()">clear</button>
+      <button onclick="wrong()">remove-float</button>
+
+      <h3>Q84. Which property changes object fit?</h3>
+      <button onclick="right()">object-fit</button>
+      <button onclick="wrong()">fit-object</button>
+
+      <h3>Q85. Which HTML tag is used for canvas?</h3>
+      <button onclick="right()">&lt;canvas&gt;</button>
+      <button onclick="wrong()">&lt;draw&gt;</button>
+
+      <h3>Q86. Which property changes background image?</h3>
+      <button onclick="right()">background-image</button>
+      <button onclick="wrong()">image</button>
+
+      <h3>Q87. Which property repeats background?</h3>
+      <button onclick="right()">background-repeat</button>
+      <button onclick="wrong()">repeat</button>
+
+      <h3>Q88. Which property positions background?</h3>
+      <button onclick="right()">background-position</button>
+      <button onclick="wrong()">position-background</button>
+
+      <h3>Q89. Which property changes table border collapse?</h3>
+      <button onclick="right()">border-collapse</button>
+      <button onclick="wrong()">table-border</button>
+
+      <h3>Q90. Which tag is used for strong text?</h3>
+      <button onclick="right()">&lt;strong&gt;</button>
+      <button onclick="wrong()">&lt;bold&gt;</button>
+
+      <h3>Q91. Which property changes flex direction?</h3>
+      <button onclick="right()">flex-direction</button>
+      <button onclick="wrong()">direction</button>
+
+      <h3>Q92. Which property wraps flex items?</h3>
+      <button onclick="right()">flex-wrap</button>
+      <button onclick="wrong()">wrap</button>
+
+      <h3>Q93. Which property creates grid layout?</h3>
+      <button onclick="right()">display:grid</button>
+      <button onclick="wrong()">display:flex</button>
+
+      <h3>Q94. Which property defines grid columns?</h3>
+      <button onclick="right()">grid-template-columns</button>
+      <button onclick="wrong()">grid-columns</button>
+
+      <h3>Q95. Which property defines grid rows?</h3>
+      <button onclick="right()">grid-template-rows</button>
+      <button onclick="wrong()">grid-rows</button>
+
+      <h3>Q96. Which property changes text transform?</h3>
+      <button onclick="right()">text-transform</button>
+      <button onclick="wrong()">transform-text</button>
+
+      <h3>Q97. Which value makes text uppercase?</h3>
+      <button onclick="right()">uppercase</button>
+      <button onclick="wrong()">capital</button>
+
+      <h3>Q98. Which property changes white space handling?</h3>
+      <button onclick="right()">white-space</button>
+      <button onclick="wrong()">space</button>
+
+      <h3>Q99. Which property changes vertical alignment?</h3>
+      <button onclick="right()">vertical-align</button>
+      <button onclick="wrong()">align-vertical</button>
+
+      <h3>Q100. Which property changes resize behavior?</h3>
+      <button onclick="right()">resize</button>
+      <button onclick="wrong()">resizable</button>
+    </main>
+  </body>
+</html>
